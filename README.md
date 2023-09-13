@@ -1,10 +1,27 @@
-- 👋 Hi, I’m @luki rusandi
-- 👀 I’m interested in football,futsal
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+demo-repo
+=========
 
-<!---
-rusandy91/rusandy91 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+This is a demo repo to demonstrate pre-commit hooks.
+
+pre-commit: https://github.com/pre-commit/pre-commit
+
+Simple instructions to see this repo in action.
+
+    $ virtualenv venv
+    $ . venv/bin/activate
+    $ pip install pre-commit
+    $ pre-commit install
+    $ pre-commit run --all-files
+
+    # Should show some output with some passing and some failing hooks
+
+
+## Some Screenshots
+
+### Example hook failures
+
+![Example failures](https://raw.githubusercontent.com/pre-commit/demo-repo/main/img/demo_all_files.png)
+
+### Successful commit
+
+![Example failures](https://raw.githubusercontent.com/pre-commit/demo-repo/main/img/demo_commit.png)
